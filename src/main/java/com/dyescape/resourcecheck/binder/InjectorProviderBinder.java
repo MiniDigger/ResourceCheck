@@ -5,7 +5,6 @@ import com.google.inject.AbstractModule;
 import com.dyescape.resourcecheck.provider.InjectorProvider;
 import com.dyescape.resourcecheck.provider.InjectorProviderImpl;
 
-
 /**
  * InjectorProviderBinder class as extension of Guice's AbstractModule which
  * is used to bind the {@link InjectorProvider} interface to the

@@ -7,7 +7,6 @@ import com.google.inject.Singleton;
 import com.dyescape.resourcecheck.binder.ApplicationVerticlesBinder;
 import com.dyescape.resourcecheck.binder.InjectorProviderBinder;
 
-
 /**
  * Base implementation of the {@link InjectorProvider}
  * interface. This is the base implementation of a deployed scenario
