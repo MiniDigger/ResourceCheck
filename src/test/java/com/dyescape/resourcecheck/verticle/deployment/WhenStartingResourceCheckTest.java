@@ -34,11 +34,6 @@ public class WhenStartingResourceCheckTest {
 
     @BeforeAll
     public static void setup() {
-        Verticle testVerticle = new TestVerticle();
-
-        List<Class<? extends Verticle>> verticles = new ArrayList<>();
-        verticles.add(testVerticle.getClass());
-
         injector = Guice.createInjector(
                 new ApplicationVerticlesBinder(),
                 new InjectorProviderBinder()
