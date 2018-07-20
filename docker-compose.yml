@@ -1,0 +1,9 @@
+version: '3.6'
+
+services:
+
+  resource-check:
+    image: dyescape/resource-check:latest
+    ports:
+      - "8080:8080"
+    restart: on-failure
